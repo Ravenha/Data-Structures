@@ -2,6 +2,7 @@ import unittest
 from unittest.mock import MagicMock
 from generic_heap import Heap
 
+
 class HeapTests(unittest.TestCase):
     def setUp(self):
         self.heap = Heap()
